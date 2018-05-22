@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Health",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "csslint": "^1.0.5",
+    "jslint": "^0.12.0",
+    "loadash": "^1.0.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +17,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/Abhishekchoudhary0888/health.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Abhishekchoudhary0888/health/issues"
+  },
+  "homepage": "https://github.com/Abhishekchoudhary0888/health#readme"
 }

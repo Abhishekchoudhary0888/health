@@ -1,0 +1,25 @@
+{
+  "name": "health",
+  "description": "Health",
+  "main": "index.js",
+  "authors": [
+    "abhishek"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Abhishekchoudhary0888/health",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.3.1",
+    "respond": "^1.4.2",
+    "bowser": "^1.9.3",
+    "html5shiv": "^3.7.3",
+    "cookie-monster": "^2.0.0",
+    "flexslider": "^2.7.0"
+  }
+}

@@ -1,0 +1,23 @@
+
+# IDE files
+.idea
+!.idea/codeStyleSettings.xml
+!.idea/inspectionProfiles/
+!.idea/dictionaries/
+!.idea/scopes/
+
+# Ignore bundler config
+/.bundle
+
+# Ignore the build directory
+/build
+
+# Ignore cache
+/.sass-cache
+/.cache
+
+/bower_components
+/node_modules
+
+# Ignore .DS_store file
+.DS_Store
