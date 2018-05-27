@@ -1,10 +1,6 @@
 
 # IDE files
 .idea
-!.idea/codeStyleSettings.xml
-!.idea/inspectionProfiles/
-!.idea/dictionaries/
-!.idea/scopes/
 
 # Ignore bundler config
 /.bundle
