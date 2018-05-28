@@ -1,28 +1,14 @@
 
+// General CSS
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
-}
+@import "includes/fonts";
+@import "includes/reset";
+@import "includes/styles";
 
-a {
-  color: rgba(#000, 0.7);
+// Partials CSS
+@import "partials/header";
 
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
+// Pages CSS
+@import "pages/home";
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
-
-@import "styles";

@@ -49,9 +49,7 @@
     <%= yield_content :page_header %>
 <% else %>
     <% unless current_page.data.disable_header %>
-        <div id="header">
           <%= partial 'partials/header' %>
-        </div>
     <% end %>
 <% end %>
 
@@ -68,6 +66,5 @@
         </div>
     <% end %>
 <% end %>
-
 </body>
 </html>
