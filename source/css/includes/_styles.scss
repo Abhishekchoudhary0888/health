@@ -5,6 +5,19 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
+
+/*Added*/
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
 .wrapper {
   margin: 0 auto;
   max-width: 1200px;
@@ -36,12 +49,11 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   color: $grey;
   margin: 0;
   padding: 0;
   line-height: 1.2;
-
 }
 
 @media (min-width: 1000px) {
@@ -54,7 +66,10 @@ p {
     font-size: 28px;
   }
 
-  h2 {
+  h3 {
     font-size: 24px;
+  }
+  p {
+    font-size: 18px;
   }
 }
