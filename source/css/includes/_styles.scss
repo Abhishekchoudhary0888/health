@@ -1,3 +1,6 @@
+$black: #000;
+$grey: #484848;
+
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -8,7 +11,50 @@ body {
   width: 100%;
 }
 
-h1{
-  font-size: 32px;
-  color: #4d4d4d;
+h1 {
+  font-size: 22px;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 20px;
+  color: $grey;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 18px;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 18px;
+  color: $grey;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+
+}
+
+@media (min-width: 1000px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
 }
